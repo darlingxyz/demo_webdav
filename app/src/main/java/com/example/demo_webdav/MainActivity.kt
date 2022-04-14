@@ -85,7 +85,7 @@ class MainActivity : AppCompatActivity() {
     // 与坚果云WebDAV服务器建立连接，返回sardine对象以进行操作
     fun initSardine(): OkHttpSardine {
         val sardine = OkHttpSardine()
-        // 坚果云的账号邮箱
+        // 坚果云的账号
         val userName = "demo_webdav@163.com"
         // 授权给第三方应用的密码口令
         val passWord = "aqkgubiy4z55rc6p"
